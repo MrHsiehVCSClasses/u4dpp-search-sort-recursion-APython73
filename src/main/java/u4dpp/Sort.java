@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class Sort {
 
     /**
-     * Selection sort for arrays - Ascending order.
+     * Selection sort ascending order
      */
     public static int[] selectionSort(int[] x) {
         int[] arr = Arrays.copyOf(x, x.length);
@@ -26,7 +26,7 @@ public class Sort {
     }
 
     /**
-     * Insertion sort for arrays - Ascending order.
+     * Insertion asscending order
      */
     public static int[] insertionSort(int[] x) {
         int[] arr = Arrays.copyOf(x, x.length);
@@ -43,7 +43,7 @@ public class Sort {
     }
 
     /**
-     * Selection sort for ArrayList - Descending order.
+     * Selection sort descending order
      */
     public static ArrayList<Integer> selectionSort(ArrayList<Integer> x) {
         ArrayList<Integer> list = new ArrayList<>(x);
@@ -62,7 +62,7 @@ public class Sort {
     }
 
     /**
-     * Insertion sort for ArrayList - Descending order.
+     * Insertion sort Descending order.
      */
     public static ArrayList<Integer> insertionSort(ArrayList<Integer> x) {
         ArrayList<Integer> list = new ArrayList<>(x);
@@ -79,7 +79,7 @@ public class Sort {
     }
 
     /**
-     * Recursive Merge Sort for ArrayList - Ascending order.
+     * Recursive Merge sort Ascending
      */
     public static ArrayList<Integer> mergeSort(ArrayList<Integer> x) {
         if (x.size() <= 1) return new ArrayList<>(x);

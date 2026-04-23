@@ -2,9 +2,7 @@ package u4dpp;
 
 import java.math.BigInteger;
 
-/**
- * Utility class for recursive math operations.
- */
+
 public class RecursiveMath {
 
     /**
@@ -16,7 +14,7 @@ public class RecursiveMath {
     }
 
     /**
-     * Recursive factorial using BigInteger.
+     * Recursive factorial using BigInteger (bigger cap on numbers).
      */
     public static BigInteger getFactorial(int n) {
         if (n <= 1) return BigInteger.ONE;
@@ -24,7 +22,7 @@ public class RecursiveMath {
     }
 
     /**
-     * Recursive Fibonacci sequence.
+     * Recursive Fibonacci function.
      */
     public static int getFibonacciNumber(int n) {
         if (n == 1 || n == 2) return 1;

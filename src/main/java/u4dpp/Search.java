@@ -3,7 +3,7 @@ package u4dpp;
 public class Search {
 
     /**
-     * Recursive implementation of Binary Search.
+     * Recursive for binary search
      */
     public static int binarySearch(int[] arr, int targetNumber) {
         return helper(arr, targetNumber, 0, arr.length - 1);
